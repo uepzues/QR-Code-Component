@@ -1,7 +1,7 @@
 :root {
   /* Colors */
   --color-light: hsl(0, 0%, 100%);
-  --color-lightgray: hsl(212, 45%, 89%);
+  --color-lightgray: hsl(212, 23%, 29%);
   --color-grayishblue: hsl(220, 15%, 55%);
   --color-darkblue: hsl(218, 44%, 22%);
 
@@ -87,6 +87,7 @@ body {
 }
 
 .content {
+  border: 5px solid #236aee;
   background-color: var(--color-light);
   margin: auto;
   flex-direction: column;
@@ -96,11 +97,16 @@ body {
   border-radius: 1.5em;
   font-family: var(--ff-outfit);
   max-width: 300px;
+  box-shadow: 2px 2px 10px ;
 }
 
 .content__image {
+  border: 10px solid var(--color-light);
   border-radius: 0.75em;
   overflow: hidden;
+  background-color: #236aee;
+  padding: 20px 20px 0px;
+  box-shadow: 2px 2px 10px, inset 4px 4px 10px 2px #003ba8;
 }
 
 .content__words {
